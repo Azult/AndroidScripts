@@ -4,7 +4,7 @@ Linux scripts to make Android reversing easier
 fridaServer.sh:
 	Kills running frida-server on the device and starts a new one in background
 
-Usage: fridaServer.sh
+Usage: ./fridaServer.sh
 
 
 screenshot.sh:
@@ -12,7 +12,7 @@ screenshot.sh:
 
 Usage: screenshot.sh ״scrshtName״ ״pathe-to-save-on-the-pc״
 
-Example: adbScreenShot scr1 /home/cyb3r/Documents/
+Example: ./screenshot.sh scr1 /home/user/Documents/
 
 
 
