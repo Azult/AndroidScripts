@@ -1,4 +1,4 @@
-Linux scripts tom make Android reversing easier
+Linux scripts to make Android reversing easier
 
 fridaServer.sh:
 	Kills running frida-server on the device and starts a new one in background
