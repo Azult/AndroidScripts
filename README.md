@@ -17,3 +17,11 @@ Example: ./screenshot.sh scr1 /home/user/Documents/
 
 
 Best practice is to put all the commands in the '~/.bashrc' file
+
+
+pat.py:
+	Finds buffer patter
+
+Usage:
+	- Create pattern: ./pat.py 200
+	- Find   pattern: ./pat.py 0x37694136

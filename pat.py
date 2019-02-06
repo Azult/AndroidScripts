@@ -60,7 +60,10 @@ if __name__ == '__main__':
     length = int(sys.argv[1])
     print(pat(length), end=end)
   except (ValueError):
-    print(find((sys.argv[1][2:]).decode("hex")[::-1]))
+    try:
+	print(find((sys.argv[1][2:]).decode("hex")[::-1]))
+    except:
+	print("Use hex: 0x37694136")
   except (IndexError):
     usage()
 
